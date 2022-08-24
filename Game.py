@@ -16,14 +16,14 @@ while True:
                 print("Good choice, you made it away safely.")
 
                 answer = input("You see a car and a plane. Which would you like to take? (car/plane) ")
-
+                answer = None
                 if answer == "plane":
                     print("Unfortunately you do not know how to fly... Game is over!")
                     break
                 else:
                     print("You won")
                     break
-				
+                    
 
 
         elif answer == "rigth": 
